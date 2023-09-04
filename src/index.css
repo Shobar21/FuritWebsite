@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  /* background: -moz-linear-gradient(pink, purple, rgb(165, 23, 94), lightcoral); */
+  background-color: rgb(53, 11, 92);
+}
+.mainpage {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: inline-block;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 5px 10px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  transform: 0.5s;
+}
+.navbar {
+  /* background-color: black; */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 100%;
+  height: 90px;
+}
+.navbar h1 {
+  color: white;
+  padding-left: 20px;
+  font-size: 45px;
+}
+span {
+  color: yellow;
+}
+.nav {
+  padding: 20px;
+}
+.nav li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.col {
+  flex-basis: 46%;
+  justify-content: space-between;
+}
+.col h1 {
+  color: white;
+  font-size: 50px;
+}
+.col p {
+  color: white;
+}
+img {
+  height: 250px;
+  width: 250px;
+}
+.Header {
+  display: flex;
+}
+.Header h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+.img {
+  width: 150px;
+  height: 100px;
+  margin: 40px;
+  padding-left: 15rem;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+.fruits_container {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.F1 {
+  height: 350px;
+  width: 300px;
+  align-items: center;
+  background-color: white;
+}
+.image {
+  height: 200px;
+  width: 200px;
+}
+button {
+  background-color: rgb(8, 61, 8);
+  width: 120px;
+  color: white;
+  height: 40px;
+}
